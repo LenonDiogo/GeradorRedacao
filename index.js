@@ -1,7 +1,7 @@
 const inputPergunta = document.getElementById("inputPergunta");
 const resultadoIA = document.getElementById("resultadoIA");
 
-const OPENAI_API_KEY = "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";
+const OPENAI_API_KEY = "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";
 
 function EnviarPergunta() {
 	var valorPergunta = "criar redação sobre" + inputPergunta.value;
