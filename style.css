@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+
+body{
+    background: #363636;
+}
+.container{
+    width: 80%;
+    height: 1200px;
+    background-color: #696969;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 15px 5px 10px 5px  black;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 300px;
+    width: 70%;
+    margin: 20px auto;
+}
+
+input{
+    width: 65%;
+    height: 30px;
+}
+
+button{
+    width: 25%;
+    height: 30px;
+    background-color: aqua;
+    font-family: 'Mochiy Pop One', sans-serif;
+    cursor: pointer;
+}
+button:hover{
+    color: whitesmoke;
+}
+
+.texto{
+    margin: auto;
+    width: 95%;
+    height: 70%;
+    margin-top: 10px;
+}
+
+
+textarea{
+    width: 70%;
+    margin-left: auto;
+    height: 70%;
+}
+
+input::placeholder{
+    font-style: italic;
+    color: lightgray;
+}
+
+@media (max-width: 922px){
+    .cabecalho{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    button{
+        width: 100%;
+    }
+
+    input{
+        width: 100%;
+    }
+}
